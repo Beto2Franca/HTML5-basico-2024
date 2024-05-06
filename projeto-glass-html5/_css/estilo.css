@@ -49,10 +49,18 @@ nav#menu li{
     background-color: rgb(170, 173, 174);
     padding: 6px;
     margin: 3px;
+    transition: background-color 1s;
 }
 nav#menu h1{
     display: none;
 }
-li>a{
+nav#menu li:hover{
+    background-color: #606060;
+}
+nav#menu li>a{
     text-decoration: none;
+    color: #000000;
+}
+nav#menu a:hover{
+    color: #ffffff;
 }
